@@ -18,7 +18,7 @@ namespace Vetores
                 idades [contador] = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine("Nomes cadasrados:");
+            Console.WriteLine("Nomes cadastrados:");
 
             for(var contador = 0; contador<3; contador++){
                 Console.WriteLine("Nome: "+nomes[contador]);
